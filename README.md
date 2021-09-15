@@ -6,4 +6,7 @@ DICE GAME
 
 - Started up project with create react app
 - Styling with styled-components
-- Boxes race from start to end of the page
+- Boxes race from start to end of dedicated track
+- Die Images were created using adobe xd
+- Used react color log npm package to give console a colorful envionment
+- 😁Use console while clicking to see actions happening
