@@ -6,4 +6,4 @@ DICE GAME
 
 - Started up project with create react app
 - Styling with styled-components
-- All results shown in console
+- Boxes race from start to end of the page
