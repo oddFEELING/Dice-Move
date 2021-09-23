@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import * as Style from './AppStyle';
-import { _success, _info, _warning, _error } from 'react-color-log';
+import { _success, _info, _warning } from 'react-color-log';
 //-->  import colors value for the player objects
 import COLORS from './Data/ColorData';
 //-->  Dice images import
@@ -22,8 +22,6 @@ function App() {
   const [TwoTrack, setTwoTrack] = useState(0);
   //-->  Player two color state
   const [PTwo_Color, setPTwo_Color] = useState('White');
-  //-->  new game state
-  const [NewGame, setNewGame] = useState(true);
   //-->  State for die value
   const [DieVal, setDieVal] = useState(Side_6);
   //-->  Stated for rolled dice
@@ -69,6 +67,8 @@ function App() {
         break;
       case 6:
         setDieVal(Side_6);
+        break;
+      default:
         break;
     }
 
@@ -139,7 +139,7 @@ function App() {
         </Style.ButtonsDiv>
         <Style.DiceDiv>
           <Style.DICE rolled={Rolled} onClick={handleClick}>
-            <img src={DieVal} />
+            <img src={DieVal} alt='Die' />
           </Style.DICE>
           <h3>{Master_Turn ? 'Player 1' : 'Player 2'} Roll die</h3>
         </Style.DiceDiv>
