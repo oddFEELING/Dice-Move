@@ -3,6 +3,7 @@
 <h2>
 DICE GAME
 </h2>
+<img src='https://images.unsplash.com/photo-1551431009-a802eeec77b1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1074&q=80' width = '100%'/>
 
 - Started up project with create react app
 - Styling with styled-components
